@@ -41,6 +41,8 @@ The most popular unsupervised algorithms include:
 1. **GMMs,**
 1. **PCAs,** 
 1. and **hypothesis tests-based analysis**
+1. **Local Outlier Factor (LOF)**
+1. **DBSCAN clustering**
 
 These algorithms essentially work by identifying groups of similar data points and considering the points outside of these groups to be anomalies. The Robust Covariance technique assumes that normal data points have a Gaussian distribution, and accordingly estimates the shape of the joint distribution (i.e., estimates the mean and covariance of the multivariate Gaussian distribution). The One-Class SVM algorithm relaxes the Gaussian assumption; instead, it identifies arbitrarily shaped regions with a high density of normal points. Isolation Forests, on the other hand, don’t make any assumptions about the shape of the distribution: a collection of decision trees is constructed, in which each individual decision tree splits data along a random point. Anomalies are considered to be the most isolated points.
 
